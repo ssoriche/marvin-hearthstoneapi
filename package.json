@@ -1,5 +1,5 @@
 {
-  "name": "hubot-marvin-hearthstoneapi",
+  "name": "marvin-hearthstoneapi",
   "description": "Interacts with hearthstoneapi.com",
   "version": "0.0.0",
   "author": "Shawn Sorichetti <ssoriche@gmail.com>",
@@ -13,7 +13,7 @@
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-marvin-hearthstoneapi/issues"
+    "url": "https://github.com/ssoriche/marvin-hearthstoneapi/issues"
   },
 
   "dependencies": {
