@@ -1,4 +1,4 @@
-# hubot-marvin-hearthstoneapi
+# marvin-hearthstoneapi
 
 Interacts with hearthstoneapi.com
 
@@ -8,13 +8,13 @@ See [`src/marvin-hearthstoneapi.coffee`](src/marvin-hearthstoneapi.coffee) for f
 
 In hubot project repo, run:
 
-`npm install hubot-marvin-hearthstoneapi --save`
+`npm install git+https://git@github.com/ssoriche/marvin-hearthstoneapi --save`
 
-Then add **hubot-marvin-hearthstoneapi** to your `external-scripts.json`:
+Then add **marvin-hearthstoneapi** to your `external-scripts.json`:
 
 ```json
 [
-  "hubot-marvin-hearthstoneapi"
+  "marvin-hearthstoneapi"
 ]
 ```
 
@@ -24,7 +24,3 @@ Then add **hubot-marvin-hearthstoneapi** to your `external-scripts.json`:
 user1>> hubot hello
 hubot>> hello!
 ```
-
-## NPM Module
-
-https://www.npmjs.com/package/hubot-marvin-hearthstoneapi
