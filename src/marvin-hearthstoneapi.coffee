@@ -27,3 +27,9 @@ module.exports = (robot) ->
         if Object.keys(cards).length == 1
           reply = cards[0].name + " " + cards[0].img
           msg.send reply
+        else
+          reply = ""
+          for card in cards
+            reply += card.name + " "
+
+          msg.send '```' + reply + '```'
