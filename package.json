@@ -12,7 +12,9 @@
   "bugs": {
     "url": "https://github.com/ssoriche/marvin-hearthstoneapi/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "marvin-profile": "git+https://github.com/ssoriche/marvin-profile.git#v0.0.1"
+  },
   "peerDependencies": {
     "hubot": "2.x"
   },

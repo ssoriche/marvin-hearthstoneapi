@@ -16,6 +16,8 @@
 urlBase = 'https://omgvamp-hearthstone-v1.p.mashape.com'
 
 module.exports = (robot) ->
+  robot.emit 'profile.register', 'battletag'
+
   robot.hear /^[\.!]hs search\s+(.*)$/i, (msg) ->
     [ __, cardName ] = msg.match
 
